@@ -4,7 +4,7 @@ import { devicesRouter } from "./routes/devices.router";
 
 const app = express();
 
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 
 connectToDatabase()
     .then(() => {
