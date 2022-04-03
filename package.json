@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "sudo npm install typescript@latest -g && tsc && node build/index.js",
+    "start": "tsc && node build/index.js",
     "dev": "nodemon"
   },
   "devDependencies": {
