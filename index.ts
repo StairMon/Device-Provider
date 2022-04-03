@@ -9,7 +9,7 @@ const port = process.env.port || 3000;
 connectToDatabase()
     .then(() => {
         app.use("/devices", devicesRouter);
-
+ 
         app.listen(port, () => {
             console.log(`Server started at http://localhost:${port}`);
         });
